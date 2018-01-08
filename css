@@ -1,0 +1,33 @@
+html {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+*, *:before, *:after {
+-webkit-box-sizing: inherit;
+-moz-box-sizing: inherit;
+box-sizing: inherit;
+  }
+.grad {
+  background:  #81CEDF; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #81CEDF, #81CEDF, #E9BE3F, #91D435, #91D435);  
+/* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(left, #81CEDF, #81CEDF, #E9BE3F, #91D435, #91D435); 
+ /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(left, #81CEDF, #81CEDF, #E9BE3F, #91D435, #91D435);      
+/* For Fx 3.6 to 15 */
+  background: linear-gradient(to right,  #81CEDF, #81CEDF, #E9BE3F, #91D435, #91D435);   /* 
+Standard syntax */
+}
+.red {
+color: red;
+}
+.blk {
+color: black;
+}
+.blu {
+color: blue;
+}
+.no-bullet {
+  list-style-type: none;
+}
