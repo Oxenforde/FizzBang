@@ -2,10 +2,10 @@ let i = 0;
 function CheckNumber (i) {
 "use strict"
 if ((i % 3 == 0) && (i % 5 != 0)) {
-document.write('<span class="blu"> fizz </span>');
+document.write('<span class="blu"> Fizz </span>');
 }//3 (blue)
 if ((i % 5 == 0) && (i % 3 != 0)) {
-document.write('<span class="blu"> bang');
+document.write('<span class="blu"> Bang');
 }//5 (blue)
 if ((i % 3 == 0) && (i % 5 == 0)) {
 document.write('<span class="red"> FIZZ BANG!!!');
