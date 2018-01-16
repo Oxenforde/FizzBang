@@ -8,6 +8,7 @@ box-sizing: border-box;
 -moz-box-sizing: inherit;
 box-sizing: inherit;
   }
+
 .grad {
   background:  #81CEDF; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(left, #81CEDF, #81CEDF, #E9BE3F, #91D435, #91D435);  
@@ -19,6 +20,7 @@ box-sizing: inherit;
   background: linear-gradient(to right,  #81CEDF, #81CEDF, #E9BE3F, #91D435, #91D435);   /* 
 Standard syntax */
 }
+
 .red {
 color: red;
 }
@@ -31,6 +33,7 @@ color: blue;
 .grn {
 color: green;
 }
+
 .no-bullet {
   list-style-type: none;
 }
